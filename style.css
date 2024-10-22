@@ -1,0 +1,315 @@
+body {
+    background: #E0E0E0;
+    margin: 0;
+    padding: 0; 
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.shop, .sale, .about, .sign-in {
+    position: absolute;
+    width: 103px; 
+    height: 28px; 
+}
+
+.shop {left: 15px; top: 20px;}
+.sale { left: 120px; top: 20px;}
+.about { left: 225px; top: 20px;}
+.sign-in {left: 1075px; top: 20px;}
+
+.shop, .sale, .about, .sign-in {
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 20px; 
+    text-align: center; 
+    color: #000;
+}
+.shop li a, .sale li a, .about li a, .sign-in li a {
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 20px; 
+    text-align: center; 
+    color: #000;
+}
+.line {
+    position: absolute;
+    width: 1230px;
+    height: 0px;
+    left: 23px;
+    top: 50px;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+    position: absolute; 
+    left: 570px; 
+    top: 3px; 
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    color: #000;
+}
+
+.title h1 {
+    font-size: 22px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #000;
+}
+
+.shopping-bag {
+    position: absolute;
+    left: 1195px;
+    top: 10px;
+}
+
+.shopping-bag img {
+    width: 40px;
+    height: 40px;
+}
+
+.flag {
+    position: absolute;
+    left: 1005px;
+    top: 18px;
+}
+
+.flag img {
+    width: 48px;
+    height: 23px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.main-visual {
+    position: absolute; 
+    left: 354px; 
+    top: 183px;
+}
+
+.visual1, .visual2, .visual3 {
+    position: absolute;
+}
+
+.visual1 { left: 270px; top: -50px; }
+.visual2 { left: 430px; top: 120px; }
+.visual3 { left: 330px; top: 330px; }
+
+.visual1 img, .visual2 img, .visual3 img {
+    width: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
+}
+
+.title h2 {
+    width: 500px;
+    height: 19px;
+
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 65px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title h3 {
+    width: 1000px;
+    height: 19px;
+
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 65px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+/*FOOTER*/
+footer {
+    position: absolute;
+    left: 23px;
+    top: 730px;
+    width: 1230px;
+}
+
+footer hr {
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-service h3{
+    position: absolute;
+    width: 133px;
+    height: 23px;
+    left: 276px;
+    top: 10px;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+  
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+
+} 
+
+.about-us h3{
+    position: absolute;
+    width: 133px;
+    height: 23px;
+    left: 500px;
+    top: 11px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+
+.follow-us h3 {
+    position: absolute;
+    width: 133px;
+    height: 23px;
+    left: 726px;
+    top: 11px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.help-centre{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 276px;
+    top: 50px;
+
+}
+
+.payment-methods{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 276px;
+    top: 70px;
+
+}
+
+.return-n-refund{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 276px;
+    top: 90px;
+
+}
+
+.order-tracking{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 276px;
+    top: 110px;
+}
+
+.about-uss{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 500px;
+    top: 50px;
+
+}
+
+.privacy-policy{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 500px;
+    top: 70px;
+
+}
+
+.flash-deals{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 500px;
+    top: 90px;
+
+}
+
+.media-contact{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 500px;
+    top: 110px;
+
+}
+.customer-service li a, .about-us li a, .follow-us li a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #767272;
+}
+.customer-service li a, .about-us li a, .follow-us li a {
+    list-style: none;
+    padding: 0;
+}
+.footer-rights {
+    position: absolute;
+    left: 900px;
+    top: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    font-size: 13px;
+    color: #767272;
+}
