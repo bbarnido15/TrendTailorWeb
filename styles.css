@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB; /* Light gray background */
+}
+main {
+    flex: 1;
+}
+.serif-font {
+    font-family: 'Times New Roman', serif; /* Elegant font */
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10; /* Overlay for the main title */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4A5568; /* Dark gray text for better contrast */
+}
+
+
